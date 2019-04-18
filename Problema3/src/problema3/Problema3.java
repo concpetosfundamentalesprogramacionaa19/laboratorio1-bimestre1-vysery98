@@ -29,13 +29,14 @@ public class Problema3 {
         nota3 = scan.nextLine();
 
         // Cálculo del promedio
-        //Uso de Cast
+        // Uso de Cast
         promedio = (Double.parseDouble(nota1) + Double.parseDouble(nota2)
                 + Double.parseDouble(nota3)) / 3;
 
+        // Usando la forma: expresion_logica ? expresion1 : expresion2
         String resultado = promedio>14 ? "pasa el año" : "no pasa el año" ;
         
-        //Salida de Datos
+        // Salida de Datos
         System.out.printf(resultado);
     }
 

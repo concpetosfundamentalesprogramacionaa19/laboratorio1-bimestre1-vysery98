@@ -12,13 +12,13 @@ public class Problema1 {
 
         Scanner scan = new Scanner(System.in);
 
-        //Declaración de Variables
+        // Declaración de Variables
         int horasTrabajadas;
         double costoPorHora;
         double valorSueldo;
         double valorSeguroS;
         
-        //Entrada de Datos
+        // Entrada de Datos
         System.out.println("Ingrese el valor correspondiente al número de horas"
                 + " trabajadas: ");
         horasTrabajadas = scan.nextInt();
@@ -30,10 +30,10 @@ public class Problema1 {
         // Cálculo de Valor mensual a pagar al trabajador
         valorSueldo = horasTrabajadas * costoPorHora;
         
-        // Valor del descuento al Seguro social
+        // Valor del descuento al Seguro social (10%)
         valorSeguroS = valorSueldo * 0.10;
         
-        //Salida de Datos
+        // Salida de Datos
         System.out.printf("Total a pagar: %.2f\nValor del descuento al Seguro "
                 + "Social: %.2f", valorSueldo, valorSeguroS);
     }

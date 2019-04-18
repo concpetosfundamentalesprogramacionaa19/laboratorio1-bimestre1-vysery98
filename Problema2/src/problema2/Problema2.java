@@ -29,13 +29,13 @@ public class Problema2 {
         z = scan.nextLine();
 
         // Cálculo de "m"
-        //Uso de Cast
+        // Uso de Cast
         m = (Double.parseDouble(x) + (Double.parseDouble(y)
                 / Double.parseDouble(z))) / (Double.parseDouble(x)
                 - (Double.parseDouble(y) / Double.
                 parseDouble(z)));
 
-        // Salida de Datos
+        // Salida de Datos usando Cast para presentar x, y y z
         System.out.printf("El valor de m, en base a las variables: \nx = %.2f\n"
                 + "\ty = %.2f\n\t\tz = %.1f\nda como resultado: \n\t\t\tm = %."
                 + "2f", Double.parseDouble(x), Double.parseDouble(y), Double.
